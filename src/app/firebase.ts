@@ -15,7 +15,6 @@ export class Firebase {
       (data) => {
         data.forEach((doc) => {
           console.log(doc.data());
-          // test
         });
       }
     );
