@@ -1,0 +1,6 @@
+<section>
+  <h2>Vocabulary List</h2>
+  @for (item of firebaseService.VocabularyList; track $index){
+  <p>{{ item.english }} - {{item.german }}</p>
+  }
+</section>
